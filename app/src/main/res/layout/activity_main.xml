@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/port_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="port"
+        android:inputType="number"
+        android:text="4563" />
+
+    <EditText
+        android:id="@+id/ip_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:hint="ip"
+        android:inputType="number"
+        android:text="192.168.8.55" />
+
+    <Button
+        android:id="@+id/receive_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="receive file" />
+
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send file" />
+
+    <Button
+        android:id="@+id/check_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="check service is running" />
+
+</LinearLayout>
